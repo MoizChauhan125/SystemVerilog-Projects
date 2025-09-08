@@ -9,6 +9,8 @@ The processor was first implemented from scratch with I-type and R-type instruct
 * The ALU is purely combinational, producing results within the same cycle. The register file is updated synchronously at the end of the cycle, ensuring the result of an instruction is available for the next instruction while it is read combinationally.
 
 * With this baseline in place, the design was later extended to handle memory access, control flow (jumps and branches), and upper-immediate instructions, completing the single-cycle RV32I instruction set.
+  
+  <img width="877" height="517" alt="Screenshot From 2025-09-08 21-40-31" src="https://github.com/user-attachments/assets/3ed38862-e485-4b5a-9c75-4bb12d266dc0" />
 
 ---
 
@@ -28,6 +30,8 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 * The store path is synchronous, updating memory contents on the positive clock edge when `MemWrite` is enabled.
 
+  <img width="882" height="446" alt="Screenshot From 2025-09-08 21-42-36" src="https://github.com/user-attachments/assets/7c412eb6-10d8-4a74-931d-d6a0f108b2db" />
+
 ---
 
 # Implementation of JAL and JALR Instructions in RISC-V Design
@@ -42,6 +46,8 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 * Hazard-free operation is ensured by writing back the link value and updating the PC in the same cycle.
 
+  <img width="688" height="672" alt="Screenshot From 2025-09-08 21-44-09" src="https://github.com/user-attachments/assets/343f0367-d625-4fac-8dfa-9436311271da" />
+
 ---
 
 # Implementation of Upper Immediate and Branch Instructions in RISC-V Design
@@ -53,5 +59,7 @@ The processor was first implemented from scratch with I-type and R-type instruct
 * If the branch condition evaluates to true, the PC is updated with the branch target address computed by adding the sign-extended immediate offset to the current PC. If the condition is false, the PC increments normally to the next sequential instruction.
 
 * Branch target calculation and condition evaluation occur within a single cycle, maintaining consistency and ensuring control flow correctness. The design ensures proper handling of both signed and unsigned comparisons as required by the instruction type.
+
+  <img width="789" height="343" alt="Screenshot From 2025-09-08 21-52-14" src="https://github.com/user-attachments/assets/91fd2eb4-7734-428e-b847-1c88317b62ce" />
 
 ---
