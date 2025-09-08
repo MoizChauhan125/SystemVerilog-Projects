@@ -6,7 +6,7 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 * **I-Type (immediate) instructions** (`addi`, `slti`, `sltiu`, `xori`, `ori`, `andi`, `slli`, `srli`, `srai`) use one register operand (`rs1`) and a 12-bit immediate, which is sign-extended to 32 bits (except for shifts, which use the lower 5 bits as the shift amount). A multiplexer selects between the second register operand and the immediate value as the ALU input. The 32-bit ALU result is then written to `rd`.
 
-* The ALU is purely combinational, producing results within the same cycle. The register file is updated synchronously at the end of the cycle, ensuring the result of an instruction is available for the next instruction.
+* The ALU is purely combinational, producing results within the same cycle. The register file is updated synchronously at the end of the cycle, ensuring the result of an instruction is available for the next instruction while it is read combinationally.
 
 * With this baseline in place, the design was later extended to handle memory access, control flow (jumps and branches), and upper-immediate instructions, completing the single-cycle RV32I instruction set.
 
