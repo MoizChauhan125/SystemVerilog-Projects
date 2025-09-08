@@ -1,14 +1,14 @@
 # Implementation of I-Type and R-Type Instructions in RISC-V Design
 
- The processor was first implemented from scratch with I-type and R-type instructions, forming the foundation of the design. These instructions provided the core ALU operations on which later extensions (Load/Store, Jumps, Upper Immediate, Branch) were built.
+*The processor was first implemented from scratch with I-type and R-type instructions, forming the foundation of the design. These instructions provided the core ALU operations on which later extensions (Load/Store, Jumps, Upper Immediate, Branch) were built.
 
- **R-Type (register-register) instructions** (`add`, `sub`, `sll`, `slt`, `sltu`, `xor`, `srl`, `sra`, `or`, `and`) use two source registers (`rs1`, `rs2`) read from the register file. The ALU operation is determined by the `funct3` and `funct7` fields, and the 32-bit result is written back to the destination register (`rd`).
+* **R-Type (register-register) instructions** (`add`, `sub`, `sll`, `slt`, `sltu`, `xor`, `srl`, `sra`, `or`, `and`) use two source registers (`rs1`, `rs2`) read from the register file. The ALU operation is determined by the `funct3` and `funct7` fields, and the 32-bit result is written back to the destination register (`rd`).
 
- **I-Type (immediate) instructions** (`addi`, `slti`, `sltiu`, `xori`, `ori`, `andi`, `slli`, `srli`, `srai`) use one register operand (`rs1`) and a 12-bit immediate, which is sign-extended to 32 bits (except for shifts, which use the lower 5 bits as the shift amount). A multiplexer selects between the second register operand and the immediate value as the ALU input. The 32-bit ALU result is then written to `rd`.
+* **I-Type (immediate) instructions** (`addi`, `slti`, `sltiu`, `xori`, `ori`, `andi`, `slli`, `srli`, `srai`) use one register operand (`rs1`) and a 12-bit immediate, which is sign-extended to 32 bits (except for shifts, which use the lower 5 bits as the shift amount). A multiplexer selects between the second register operand and the immediate value as the ALU input. The 32-bit ALU result is then written to `rd`.
 
- The ALU is purely combinational, producing results within the same cycle. The register file is updated synchronously at the end of the cycle, ensuring the result of an instruction is available for the next instruction.
+* The ALU is purely combinational, producing results within the same cycle. The register file is updated synchronously at the end of the cycle, ensuring the result of an instruction is available for the next instruction.
 
- With this baseline in place, the design was later extended to handle memory access, control flow (jumps and branches), and upper-immediate instructions, completing the single-cycle RV32I instruction set.
+* With this baseline in place, the design was later extended to handle memory access, control flow (jumps and branches), and upper-immediate instructions, completing the single-cycle RV32I instruction set.
 
 ---
 
