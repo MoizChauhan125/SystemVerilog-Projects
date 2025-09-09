@@ -11,8 +11,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-`timescale 1ns/1ps
-
 module tb_singleCycleTop;
 
     logic clk, rst;
@@ -60,5 +58,3 @@ module tb_singleCycleTop;
     end
 
 endmodule
-
-
