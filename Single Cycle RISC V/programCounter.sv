@@ -14,13 +14,14 @@
 module programCounter( output logic [31:0] PC, 
     input logic clk, 
     input logic rst,
-    input logic [31:0] PC_Next 
+    input logic branch,
+    input logic [31:0] PC_N 
     );
     always@(posedge clk or negedge rst) begin
         if(!rst)
             PC <= 32'h00000000;
         else
-            PC <= PC_Next;
+            PC <= branch ? PC_N : PC + 4;
     end
 endmodule
 
