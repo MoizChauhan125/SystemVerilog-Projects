@@ -44,3 +44,4 @@ module registerFile(
     assign data1 = rs1 ? registers[rs1] : 0; 
     assign data2 = rs2 ? registers[rs2] : 0; 
 endmodule
+
