@@ -10,18 +10,17 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module RegDataStoreMux(
     output logic [31:0] dataW,
-    input logic [31:0] memData, aluOut, PC_Store, imm,
+    input logic [31:0] memData, aluOut, PC, imm,
     input logic [1:0] dataToRegSel
     );
     always@(*)begin
         case(dataToRegSel)
-            2'b00: dataW = PC_Store;
-            2'b11: dataW = memData;
-            2'b10: dataW = imm;
-            default: dataW = aluOut;
+            2'b00: dataW = PC + 4; //for ra in JALR and JAL
+            2'b01: dataW = PC + imm; //for AUIPC
+            2'b11: dataW = memData; //for load instructions
+            2'b10: dataW = imm; //for lui
         endcase
     end
 endmodule
