@@ -60,6 +60,6 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 * Branch target calculation and condition evaluation occur within a single cycle, maintaining consistency and ensuring control flow correctness. The design ensures proper handling of both signed and unsigned comparisons as required by the instruction type.
 
-  <img width="789" height="343" alt="Screenshot From 2025-09-08 21-52-14" src="https://github.com/user-attachments/assets/91fd2eb4-7734-428e-b847-1c88317b62ce" />
+<img width="1294" height="654" alt="Capture" src="https://github.com/user-attachments/assets/d8ce5e28-10b2-40e1-b90c-7256785d04de" />
 
 ---
