@@ -48,3 +48,4 @@ module aluControl(
         else op = 4'bxxxx;        
     end
 endmodule
+
