@@ -1,7 +1,5 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 09/03/2025 08:16:06 PM
 // Design Name: Pipelined RISC V
