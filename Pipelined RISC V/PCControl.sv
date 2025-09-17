@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/31/2025 03:40:53 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: PCControl
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: A single module for calculating the PC Next in case of jump or branch and also for branch decision using flags
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
