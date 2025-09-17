@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/27/2025 04:44:39 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: control
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The main control Units for generating Control Signals
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
