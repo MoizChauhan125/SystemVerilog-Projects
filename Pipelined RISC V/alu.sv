@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/27/2025 07:13:18 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: alu
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The main ALU Unit for Arithmatic and Logical Operations, and for generating the flags
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
