@@ -5,6 +5,7 @@
 // Design Name: Pipelined RISC V
 // Module Name: ID_EX_REGISTER
 // Project Name: Pipelined RISC V
+// Description: The pipeline Register between the Instruction Decode stage and Execute Stage
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
