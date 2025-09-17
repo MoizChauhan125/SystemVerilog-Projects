@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+//
 // Create Date: 09/11/2025 07:08:41 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: LSMUX
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The Forwarding MUX for store after load hazard
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
