@@ -1,21 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/27/2025 06:43:29 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: immGen
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The Immediate Generator for generating the immmediate value for different instructions
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments: Each Immediate containing instruction has its own alignment for immediate indexes
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
