@@ -1,21 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/28/2025 03:44:41 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: dataMemory
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: Data Memory with Combinational Read Sequential Write alongwith with the logic for Word Alignment and Word Addressing  
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments: This Data Memory is Byte Addressable and Word Aligned
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
