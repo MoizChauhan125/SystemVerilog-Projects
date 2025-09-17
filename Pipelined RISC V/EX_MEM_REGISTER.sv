@@ -5,6 +5,7 @@
 // Design Name: Pipelined RISC V
 // Module Name: EX_MEM_REGISTER
 // Project Name: Pipelined RISC V
+// Description: The pipeline Register between the Execute stage and Memory Access Stage
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
