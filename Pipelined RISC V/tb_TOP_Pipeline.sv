@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+////////////////////////////////////////////////////////////////////////////////// 
 // 
 // Create Date: 08/28/2025 09:24:27 PM
-// Design Name: 
-// Module Name: tb_lab21
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Design Name: Pipelined RISC V
+// Module Name: tb_TOP_Pipeline
+// Project Name: Pipelined RISC V
+// Description: The testbench that loads instructions into the Instructions Memory from the instruction.mem file and executes them sequentially
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
@@ -22,7 +14,7 @@
 
 `timescale 1ns/1ps
 
-module tb_lab23;
+module tb_TOP_Pipeline;
 
     logic clk, rst;
     // Temporary word array for instructions
