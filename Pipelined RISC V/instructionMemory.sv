@@ -4,16 +4,10 @@
 // Engineer: 
 // 
 // Create Date: 08/27/2025 03:24:02 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: instructionMemory
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The Instruction Memory that outputs the 32-bit instuction from the address given to it PC(Program Counter)
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
