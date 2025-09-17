@@ -4,23 +4,17 @@
 // Engineer: 
 // 
 // Create Date: 09/01/2025 12:47:15 PM
-// Design Name: 
-// Module Name: lab22
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Design Name: Pipelined RISC V
+// Module Name: TOP_Pipeline
+// Project Name: Pipelined RISC V
+// Description: The Top module that connects the submodules
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module pipeline_top(
+module TOP_Pipeline(
     input logic clk, rst
     );
     // Program Counter and Instruction
