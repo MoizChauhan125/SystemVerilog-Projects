@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module lab23(
+module pipeline_top(
     input logic clk, rst
     );
     // Program Counter and Instruction
