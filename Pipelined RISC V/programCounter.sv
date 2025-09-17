@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/27/2025 03:10:58 PM
-// Design Name: 
-// Module Name: programCounter
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Design Name: Pipelined RISC V
+// Module Name: ProgramCounter
+// Project Name: Pipelined RISC V
+// Description: The register that updates on each clock cycle and tells the Instruction Address to the Instruction Memory
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
