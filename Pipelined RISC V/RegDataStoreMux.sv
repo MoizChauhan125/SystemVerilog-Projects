@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+//////////////////////////////////////////////////////////////////////////////////a
 // 
 // Create Date: 08/31/2025 03:48:34 PM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: RegDataStoreMux
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The last rightmost mux in the pipeline that selects which data has to be stored in the register File
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
