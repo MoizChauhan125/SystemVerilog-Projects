@@ -1,19 +1,10 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 09/01/2025 04:38:16 PM
-// Design Name: 
-// Module Name: ID_EX_REGISTER
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Design Name: Pipelined RISC V
+// Module Name: EX_MEM_REGISTER
+// Project Name: Pipelined RISC V
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
