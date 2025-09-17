@@ -1,24 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 08/27/2025 03:37:25 PM
-// Design Name: 
-// Module Name: registerFile
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Design Name: Pipelined RISC V
+// Module Name: rgisterFile
+// Project Name: Pipelined RISC V
+// Description: The Register File with Combinational Read and Sequential Write containing the total 32 number of 32-bit Registers
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments: The read operation of Register File in the pipeline happens in the Decode Stage while Write operation happens in WriteBack Stage 
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 module registerFile(
     output logic [31:0] data1, data2,
