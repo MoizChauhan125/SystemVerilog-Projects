@@ -3,7 +3,7 @@
 // 
 // Create Date: 08/27/2025 07:09:16 PM
 // Design Name: Pipelined RISC V
-// Module Name: IF_ID_REGISTER
+// Module Name: aluMux
 // Project Name: Pipelined RISC V
 // Description: The muc for selection between Immediate value and register file operand
 // Revision 0.01 - File Created
