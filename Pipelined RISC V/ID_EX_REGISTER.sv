@@ -3,7 +3,7 @@
 // 
 // Create Date: 09/01/2025 04:38:16 PM
 // Design Name: Pipelined RISC V
-// Module Name: EX_MEM_REGISTER
+// Module Name: ID_EX_REGISTER
 // Project Name: Pipelined RISC V
 // Revision 0.01 - File Created
 // Additional Comments:
