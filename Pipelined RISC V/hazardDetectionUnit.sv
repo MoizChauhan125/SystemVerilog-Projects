@@ -1,19 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
 // 
 // Create Date: 09/04/2025 11:37:30 AM
-// Design Name: 
+// Design Name: Pipelined RISC V
 // Module Name: hazardDetectionUnit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Project Name: Pipelined RISC V
+// Description: The Hazard Detection Unit for creating bubble in the pipeline whenever R-TYPE or I-Type dependency occurs after Load Instruction
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
