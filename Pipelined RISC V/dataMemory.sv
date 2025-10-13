@@ -24,13 +24,6 @@ module dataMemory(
     
     assign addr[9:0] = aluOut[9:0]; //reducing the address bits to address not more than 1KB
     
-    integer i;
-    initial begin
-        for (i = 0; i < 1024; i = i + 1) begin
-            mem[i] = 8'h00;   // initialize all memory locations to zero
-        end
-    end
-    
     always@(posedge clk)begin
         if((func3 == 3'b010) && (memWrite == 1'b1) && (memRead == 1'b0) && (addr[1:0] == 2'b00)) //store word when addr is multiple of (4) {0, 4, 8, 12} 
             {mem[addr + 3], mem[addr + 2], mem[addr + 1], mem[addr]} <= data2;
