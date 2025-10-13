@@ -20,15 +20,6 @@ module registerFile(
     
     logic [31:0] registers [0:31];
     
-    //initilize the registers with zero
-    integer i;
-    initial begin
-        registers[0] = 0;
-        for (i = 1; i < 32; i = i + 1) begin
-            registers[i] = 32'h00000000;   // initialize all registers to zero
-        end
-    end
-    
     //write sequentially when regWrite Enable is high
     always@(negedge clk) begin
         if(regWEn && rd != 0)
