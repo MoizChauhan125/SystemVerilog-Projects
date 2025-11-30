@@ -1,11 +1,14 @@
 # The provided Caches
 1. Direct Mapped Cache
+   
 A direct-mapped cache places each memory block in exactly one cache line based on its index. It is simple and fast but prone to conflict misses because multiple blocks may compete for the same line.
 
 2. 2 way Set Associative Cache
+
 A set-associative cache divides the cache into multiple sets, with each set containing several lines (ways). A memory block can be placed in any line within its indexed set. This reduces conflict misses while keeping hardware complexity moderate.
 
 3. Fully Associative Cache
+
 In a fully associative cache, a memory block can be placed in any cache line. This offers the lowest conflict misses but requires expensive hardware for searching all lines in parallel, making it slower and costlier for large caches.
 
 # The Process of creating the Cache lines (ways) and Verification
