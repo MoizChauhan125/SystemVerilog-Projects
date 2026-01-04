@@ -60,7 +60,8 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 * Branch target calculation and condition evaluation occur within a single cycle, maintaining consistency and ensuring control flow correctness. The design ensures proper handling of both signed and unsigned comparisons as required by the instruction type.
 
-<img width="1294" height="654" alt="Capture" src="https://github.com/user-attachments/assets/d8ce5e28-10b2-40e1-b90c-7256785d04de" />
-
+# Complete Single Cycle RISC-V Design Block Diagram
 ---![single_cycle(1)](https://github.com/user-attachments/assets/bd093ba0-33ea-49dc-b37c-43f3883645b8)
+
+![ControlUnit](https://github.com/user-attachments/assets/2b8e810a-7af0-438a-98ec-52b84bc0b2e5)
 
