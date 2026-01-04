@@ -62,4 +62,5 @@ The processor was first implemented from scratch with I-type and R-type instruct
 
 <img width="1294" height="654" alt="Capture" src="https://github.com/user-attachments/assets/d8ce5e28-10b2-40e1-b90c-7256785d04de" />
 
----
+---![single_cycle(1)](https://github.com/user-attachments/assets/bd093ba0-33ea-49dc-b37c-43f3883645b8)
+
